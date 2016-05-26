@@ -13,7 +13,6 @@ There's two parts to this application - the Falcor service itself, and the React
 ### Running the Falcor service
 
 Inside the `server` directory, run:
-
 ```
 $ npm install
 $ npm run start
@@ -25,7 +24,12 @@ You should see the Falcor service start running on port 3000 (by default).
 
 Follow the [Getting Started instructions](https://facebook.github.io/react-native/docs/getting-started.html) on the official React Native site, if you haven't done so already.
 
-Then, if you're running the iOS application, go into the `client` directory and run:
+Inside the `client` directory, run:
+```
+$ npm install
+```
+
+Then, if you're running the iOS application, run:
 ```
 $ react-native run-ios
 ```
