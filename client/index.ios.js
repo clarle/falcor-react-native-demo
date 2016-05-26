@@ -29,6 +29,11 @@ class FalcorDemo extends Component {
       this.setState({
         greeting: response.json.greeting
       });
+    })
+    .catch((err) => {
+      this.setState({
+        greeting: 'We had trouble connecting to Falcor. Is the server running?'
+      });
     });
   }
 
