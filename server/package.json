@@ -1,0 +1,20 @@
+{
+  "name": "falcor-react-native-server",
+  "version": "1.0.0",
+  "description": "Falcor service for the React Native example app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "falcor",
+    "react-native"
+  ],
+  "author": "Clarence Leung <contact@clarle.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.4",
+    "falcor-express": "^0.1.2",
+    "falcor-router": "^0.4.0"
+  }
+}

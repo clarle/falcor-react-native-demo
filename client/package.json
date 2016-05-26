@@ -1,0 +1,14 @@
+{
+  "name": "FalcorDemo",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "dependencies": {
+    "falcor": "git@github.com:Netflix/falcor.git#f2cafdf",
+    "falcor-http-datasource": "^0.1.3",
+    "react": "^15.0.2",
+    "react-native": "^0.26.2"
+  }
+}
